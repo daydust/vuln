@@ -16,7 +16,7 @@ Daydust
 /php-attendance/modals/student_form.php
 
 **Description:**
-Simple_Student_Attendance_Syste Exists SQL Injection Vulnerability on class_form.php Page
+Simple_Student_Attendance_Syste Exists SQL Injection Vulnerability on student_form.php Page
 
 Attackers can use SQL injection to bypass the authentication and authorization mechanisms of web applications and retrieve the content of the entire database. SQLi can also be used to add, modify, and delete records in a database, thereby affecting data integrity. In appropriate cases, attackers can also use SQLi to execute operating system commands, which can then be used to launch further attacks.
 
