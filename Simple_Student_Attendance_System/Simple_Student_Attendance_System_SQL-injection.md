@@ -19,6 +19,7 @@ Simple_Student_Attendance_Syste Exists SQL Injection Vulnerability on class_form
 
 Attackers can use SQL injection to bypass the authentication and authorization mechanisms of web applications and retrieve the content of the entire database. SQLi can also be used to add, modify, and delete records in a database, thereby affecting data integrity. In appropriate cases, attackers can also use SQLi to execute operating system commands, which can then be used to launch further attacks.
 
+access http://172.21.48.180/php-attendance/?page=class_list Go to the course management page, enable packet capture, and click the edit button of any course to obtain the following data packets
 
 ```http
 POST /php-attendance/modals/class_form.php HTTP/1.1
